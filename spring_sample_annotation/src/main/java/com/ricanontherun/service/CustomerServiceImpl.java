@@ -12,6 +12,13 @@ import java.util.List;
 public class CustomerServiceImpl implements CustomerService {
     private CustomerRepository customerRepository;
 
+    public CustomerServiceImpl() {}
+
+    @Autowired
+    public CustomerServiceImpl(CustomerRepository customerRepository) {
+        this.customerRepository = customerRepository;
+    }
+
     public List<Customer> findAll() {
         return customerRepository.findAll();
     }
@@ -23,11 +30,11 @@ public class CustomerServiceImpl implements CustomerService {
         return customerRepository;
     }
 
-    @Autowired
     /**
      * @param customerRepository the customerRepository to set
      */
     public void setCustomerRepository(CustomerRepository customerRepository) {
+        System.out.println("Autowired is using the setter.");
         this.customerRepository = customerRepository;
     }
 

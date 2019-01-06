@@ -1,0 +1,6 @@
+/Users/christianroman/Code/pluralsight/spring-fundamentals/test/src/main/java/com/ricanontherun/model/Customer.java
+/Users/christianroman/Code/pluralsight/spring-fundamentals/test/src/main/java/com/ricanontherun/service/CustomerService.java
+/Users/christianroman/Code/pluralsight/spring-fundamentals/test/src/main/java/App.java
+/Users/christianroman/Code/pluralsight/spring-fundamentals/test/src/main/java/com/ricanontherun/repository/CustomerRepository.java
+/Users/christianroman/Code/pluralsight/spring-fundamentals/test/src/main/java/com/ricanontherun/repository/HibernateCustomerRepositoryImpl.java
+/Users/christianroman/Code/pluralsight/spring-fundamentals/test/src/main/java/com/ricanontherun/service/CustomerServiceImpl.java
